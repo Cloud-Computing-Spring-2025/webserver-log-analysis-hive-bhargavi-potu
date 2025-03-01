@@ -25,7 +25,7 @@ exit
 
 ### 2. Loading Data to HDFS
 ```sh
-docker cp /workspaces/webserver-log-analysis-hive-nikilteja15/web_server_logs.csv namenode:/data/web_logs/web_server_logs.csv
+docker cp /workspaces/webserver-log-analysis-hive-bhargavi-potu/web_server_logs.csv namenode:/data/web_logs/web_server_logs.csv
 
 docker exec -it namenode /bin/bash
 ls -l /data/web_logs/
